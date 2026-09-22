@@ -1,0 +1,133 @@
+<!doctype html>
+<html class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-[#0a0a0a] text-white overflow-x-hidden">
+
+    <!-- Background Image + Gradient Blobs -->
+    <div class="fixed inset-0 -z-10">
+        <img src="./jonatan-pie-3l3RwQdHRHg-unsplash.jpg" class="w-full h-full object-cover opacity-40">
+        <div class="absolute inset-0 bg-gradient-to-b from-black/60 via-black/80 to-[#0a0a0a]"></div>
+        <div class="absolute top-20 -left-20 w-96 h-96 bg-amber-500/30 rounded-full blur-[120px]"></div>
+        <div class="absolute bottom-20 -right-20 w-96 h-96 bg-orange-600/20 rounded-full blur-[120px]"></div>
+    </div>
+
+    <!-- HEADER -->
+    <header class="fixed top-0 w-full z-50 bg-black/20 backdrop-blur-2xl border-b border-white/5">
+        <nav class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="font-black text-xl tracking-widest">SAIF<span class="text-amber-400">ULLAH.</span></div>
+            <ul class="hidden md:flex gap-8 text-sm tracking-widest text-white/60">
+                <li><a href="#home" class="hover:text-white transition-colors">HOME</a></li>
+                <li><a href="#skills" class="hover:text-white transition-colors">SKILLS</a></li>
+                <li><a href="#" class="hover:text-white transition-colors">WORK</a></li>
+            </ul>
+            <button
+                class="bg-white text-black px-5 py-2 rounded-full text-sm font-bold hover:bg-amber-400 transition-colors">Hire
+                Me</button>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section id="home" class="min-h-screen flex flex-col justify-center items-center text-center px-6 pt-20">
+        <div
+            class="border border-amber-400/20 bg-amber-400/10 rounded-full px-4 py-1 text-[10px] tracking-[0.3em] text-amber-300 mb-6">
+            FRONTEND DEVELOPER • 2026</div>
+        <h1 class="text-[12vw] md:text-[8vw] lg:text-[6vw] font-black leading-[0.9] uppercase">Hi, I'm<br><span
+                class="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-orange-400 to-amber-200">Saif
+                Ullah</span></h1>
+        <p class="mt-6 text-white/50 max-w-xl text-sm md:text-base tracking-wide">I build aesthetic, fast & responsive
+            websites. Obsessed with clean code and modern UI.</p>
+        <div class="mt-10 flex flex-col sm:flex-row gap-4">
+            <button
+                class="px-8 py-4 rounded-full bg-amber-400 text-black font-bold uppercase text-sm tracking-wider hover:bg-white hover:shadow-[0_0_30px_rgba(251,191,36,0.6)] transition-all">View
+                Projects →</button>
+            <button
+                class="px-8 py-4 rounded-full border border-white/20 backdrop-blur-md font-bold uppercase text-sm tracking-wider hover:bg-white hover:text-black transition-all">Download
+                CV</button>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="max-w-7xl mx-auto px-6 py-20">
+        <div class="flex justify-between items-end mb-10">
+            <h2 class="text-3xl font-black uppercase">My <span class="text-white/20">Stack</span></h2>
+            <p class="text-white/30 text-xs tracking-widest">03 TECHNOLOGIES</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div
+                class="group relative overflow-hidden rounded-[2rem] bg-gradient-to-b from-white/[0.08] to-white/[0.02] border border-white/10 p-8 h-72 hover:border-amber-400/50 transition-all duration-500">
+                <div
+                    class="absolute -right-10 -top-10 text-8xl opacity-10 group-hover:opacity-20 group-hover:rotate-12 transition-all">
+                    💻</div>
+                <h3 class="text-4xl font-black">HTML</h3>
+                <p class="mt-2 text-white/40 text-sm">Semantic, accessible markup</p>
+                <div class="absolute bottom-8 left-8 right-8">
+                    <div class="h-[2px] w-full bg-white/10">
+                        <div class="h-full w-[90%] bg-amber-400 group-hover:w-full transition-all duration-1000"></div>
+                    </div>
+                    <p class="text-[10px] mt-2 tracking-widest text-white/30">90% EXPERT</p>
+                </div>
+            </div>
+            <div
+                class="group relative overflow-hidden rounded-[2rem] bg-gradient-to-b from-white/[0.08] to-white/[0.02] border border-white/10 p-8 h-72 hover:border-blue-400/50 transition-all duration-500">
+                <div
+                    class="absolute -right-10 -top-10 text-8xl opacity-10 group-hover:opacity-20 group-hover:rotate-12 transition-all">
+                    🎨</div>
+                <h3 class="text-4xl font-black">CSS</h3>
+                <p class="mt-2 text-white/40 text-sm">Tailwind • Animations • Glass UI</p>
+                <div class="absolute bottom-8 left-8 right-8">
+                    <div class="h-[2px] w-full bg-white/10">
+                        <div class="h-full w-[95%] bg-blue-400 group-hover:w-full transition-all duration-1000"></div>
+                    </div>
+                    <p class="text-[10px] mt-2 tracking-widest text-white/30">95% EXPERT</p>
+                </div>
+            </div>
+            <div
+                class="group relative overflow-hidden rounded-[2rem] bg-gradient-to-b from-white/[0.08] to-white/[0.02] border border-white/10 p-8 h-72 hover:border-amber-400/50 transition-all duration-500">
+                <div
+                    class="absolute -right-10 -top-10 text-8xl opacity-10 group-hover:opacity-20 group-hover:rotate-12 transition-all">
+                    ⚡</div>
+                <h3 class="text-4xl font-black">JS</h3>
+                <p class="mt-2 text-white/40 text-sm">Interactive & dynamic web apps</p>
+                <div class="absolute bottom-8 left-8 right-8">
+                    <div class="h-[2px] w-full bg-white/10">
+                        <div class="h-full w-[80%] bg-amber-400 group-hover:w-full transition-all duration-1000"></div>
+                    </div>
+                    <p class="text-[10px] mt-2 tracking-widest text-white/30">80% ADVANCED</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="border-t border-white/5 mt-10">
+        <div class="max-w-7xl mx-auto px-6 py-16 grid grid-cols-1 md:grid-cols-2 gap-10">
+            <div>
+                <h2 class="text-5xl font-black leading-none">LET'S<br><span class="text-white/20">TALK.</span></h2>
+                <p class="text-white/40 mt-4 text-sm">Have an idea? Let's make it real.</p>
+            </div>
+            <div class="md:text-right">
+                <p class="text-xs tracking-[0.3em] text-white/20">CONTACT</p>
+                <p class="text-xl mt-2 font-bold">saifullah.dev@gmail.com</p>
+                <div class="flex md:justify-end gap-3 mt-6">
+                    <a
+                        class="w-12 h-12 rounded-full bg-white/5 border border-white/10 flex justify-center items-center hover:bg-amber-400 hover:text-black transition-all">IG</a>
+                    <a
+                        class="w-12 h-12 rounded-full bg-white/5 border border-white/10 flex justify-center items-center hover:bg-amber-400 hover:text-black transition-all">LI</a>
+                    <a
+                        class="w-12 h-12 rounded-full bg-white/5 border border-white/10 flex justify-center items-center hover:bg-amber-400 hover:text-black transition-all">GH</a>
+                </div>
+            </div>
+        </div>
+        <div class="border-t border-white/5 py-6 text-center text-[10px] tracking-[0.3em] text-white/20">© 2026
+            SAIFULLAH — CRAFTED WITH ❤️ IN PAKISTAN</div>
+    </footer>
+
+</body>
+
+</html>
